@@ -19,7 +19,7 @@
 	Register
 	</h1>
 	
-	<form action="<%= request.getContextPath() %>/register1" method="post"">
+	<form action="<%= request.getContextPath() %>/register" method="post"">
 	<label>First Name</label> <input type="text" name="firstname" 	id="firstname"><br>
 	<label>Last Name</label> <input type="text" name="lastname" 	id="lastname"><br>
 	<label>Username</label> <input type="text" name="username" 	id="username"><br>
